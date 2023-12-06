@@ -24,7 +24,7 @@ export let sfConn = {
       let isSandbox = "isSandbox";
       if (localStorage.getItem(sfHost + "_" + isSandbox) == null) {
         sfConn.rest("/services/data/v" + apiVersion + "/query/?q=SELECT+IsSandbox,+InstanceName+FROM+Organization").then(res => {
-          localStorage.setItem(sfHost + "_" + isSandbox, res.records[0].IsSandbox);
+            localStorage.setItem(sfHost + "_" + isSandbox, res.records[0].IsSandbox);
           localStorage.setItem(sfHost + "_orgInstance", res.records[0].InstanceName);
         });
       }
@@ -39,7 +39,8 @@ export let sfConn = {
     let xhr = new XMLHttpRequest();
     url += (url.includes("?") ? "&" : "?") + "cache=" + Math.random();
     xhr.open(method, "https://" + this.instanceHostname + url, true);
-
+     // bug could be here
+    //xhr.setRequestHeader("Access-Control-Allow-Origin", "*");
     xhr.setRequestHeader("Accept", "application/json; charset=UTF-8");
 
     if (api == "bulk") {

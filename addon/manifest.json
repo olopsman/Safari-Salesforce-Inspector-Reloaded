@@ -41,8 +41,7 @@
     }
   ],
   "background": {
-    "service_worker": "background.js",
-    "type": "module"
+    "service_worker": "background.js"
   },
   "web_accessible_resources": [
     {
@@ -55,10 +54,8 @@
         "explore-api.html",
         "limits.html"
       ],
-      "matches": ["https://*/*"],
-      "extension_ids": []
+      "matches": ["https://*/*"]
     }
   ],
-  "incognito": "split",
   "manifest_version": 3
 }

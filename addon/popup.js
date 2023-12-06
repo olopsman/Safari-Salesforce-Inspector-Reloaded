@@ -22,7 +22,7 @@ function closePopup() {
 
 function init({sfHost, inDevConsole, inLightning, inInspector}) {
   let addonVersion = chrome.runtime.getManifest().version;
-
+ //sfConn defined in the inspector.js
   sfConn.getSession(sfHost).then(() => {
 
     ReactDOM.render(h(App, {
@@ -248,9 +248,10 @@ class App extends React.PureComponent {
               value: apiVersionInput.split(".0")[0]
             })
           ),
-          h("div", {className: "slds-col slds-size_3-of-12 slds-text-align_left"},
-            h("span", {className: "footer-small-text"}, navigator.userAgentData.platform.indexOf("mac") > -1 ? "[ctrl+option+i]" : "[ctrl+alt+i]" + " to open")
-          ),
+// unknown in Safari -- navigator.userAgentData.platform.indexOf
+//          h("div", {className: "slds-col slds-size_3-of-12 slds-text-align_left"},
+//            h("span", {className: "footer-small-text"}, navigator.userAgentData.platform.indexOf("mac") > -1 ? "[ctrl+option+i]" : "[ctrl+alt+i]" + " to open")
+//          ),
           h("div", {className: "slds-col slds-size_2-of-12 slds-text-align_right"},
             h("a", {href: "https://github.com/tprouvot/Salesforce-Inspector-reloaded#salesforce-inspector-reloaded", target: linkTarget}, "About")
           ),
