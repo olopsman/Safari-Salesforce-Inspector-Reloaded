@@ -7,90 +7,91 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BE8E23EB2B1D4FBA00D7A46D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8E23EA2B1D4FBA00D7A46D /* AppDelegate.swift */; };
-		BE8E23EF2B1D4FBA00D7A46D /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = BE8E23ED2B1D4FBA00D7A46D /* Main.html */; };
-		BE8E23F12B1D4FBA00D7A46D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BE8E23F02B1D4FBA00D7A46D /* Icon.png */; };
-		BE8E23F32B1D4FBA00D7A46D /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = BE8E23F22B1D4FBA00D7A46D /* Style.css */; };
-		BE8E23F52B1D4FBA00D7A46D /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = BE8E23F42B1D4FBA00D7A46D /* Script.js */; };
-		BE8E23F72B1D4FBA00D7A46D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8E23F62B1D4FBA00D7A46D /* ViewController.swift */; };
-		BE8E23FA2B1D4FBA00D7A46D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE8E23F82B1D4FBA00D7A46D /* Main.storyboard */; };
-		BE8E23FC2B1D4FBC00D7A46D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE8E23FB2B1D4FBC00D7A46D /* Assets.xcassets */; };
-		BE8E24052B1D4FBC00D7A46D /* Safari Salesforce Inspector Reloaded Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BE8E24042B1D4FBC00D7A46D /* Safari Salesforce Inspector Reloaded Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		BE8E240A2B1D4FBC00D7A46D /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8E24092B1D4FBC00D7A46D /* SafariWebExtensionHandler.swift */; };
-		BE8E244D2B1D4FBC00D7A46D /* slds-spinner.css in Resources */ = {isa = PBXBuildFile; fileRef = BE8E24172B1D4FBC00D7A46D /* slds-spinner.css */; };
-		BE8E244E2B1D4FBC00D7A46D /* data-export-test.js in Resources */ = {isa = PBXBuildFile; fileRef = BE8E24182B1D4FBC00D7A46D /* data-export-test.js */; };
-		BE8E244F2B1D4FBC00D7A46D /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = BE8E24192B1D4FBC00D7A46D /* popup.js */; };
-		BE8E24502B1D4FBC00D7A46D /* metadata-retrieve.js in Resources */ = {isa = PBXBuildFile; fileRef = BE8E241A2B1D4FBC00D7A46D /* metadata-retrieve.js */; };
-		BE8E24512B1D4FBC00D7A46D /* inspect-inline.js in Resources */ = {isa = PBXBuildFile; fileRef = BE8E241B2B1D4FBC00D7A46D /* inspect-inline.js */; };
-		BE8E24522B1D4FBC00D7A46D /* data-import-test.js in Resources */ = {isa = PBXBuildFile; fileRef = BE8E241C2B1D4FBC00D7A46D /* data-import-test.js */; };
-		BE8E24532B1D4FBC00D7A46D /* inspect.css in Resources */ = {isa = PBXBuildFile; fileRef = BE8E241D2B1D4FBC00D7A46D /* inspect.css */; };
-		BE8E24542B1D4FBC00D7A46D /* links.js in Resources */ = {isa = PBXBuildFile; fileRef = BE8E241E2B1D4FBC00D7A46D /* links.js */; };
-		BE8E24552B1D4FBC00D7A46D /* symbols.svg in Resources */ = {isa = PBXBuildFile; fileRef = BE8E241F2B1D4FBC00D7A46D /* symbols.svg */; };
-		BE8E24562B1D4FBC00D7A46D /* react-dom.min.js in Resources */ = {isa = PBXBuildFile; fileRef = BE8E24202B1D4FBC00D7A46D /* react-dom.min.js */; };
-		BE8E24572B1D4FBC00D7A46D /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = BE8E24212B1D4FBC00D7A46D /* background.js */; };
-		BE8E24582B1D4FBC00D7A46D /* inspect.html in Resources */ = {isa = PBXBuildFile; fileRef = BE8E24222B1D4FBC00D7A46D /* inspect.html */; };
-		BE8E24592B1D4FBC00D7A46D /* inspector.js in Resources */ = {isa = PBXBuildFile; fileRef = BE8E24232B1D4FBC00D7A46D /* inspector.js */; };
-		BE8E245A2B1D4FBC00D7A46D /* data-export.css in Resources */ = {isa = PBXBuildFile; fileRef = BE8E24242B1D4FBC00D7A46D /* data-export.css */; };
-		BE8E245B2B1D4FBC00D7A46D /* images in Resources */ = {isa = PBXBuildFile; fileRef = BE8E24252B1D4FBC00D7A46D /* images */; };
-		BE8E245C2B1D4FBC00D7A46D /* react.js in Resources */ = {isa = PBXBuildFile; fileRef = BE8E24262B1D4FBC00D7A46D /* react.js */; };
-		BE8E245D2B1D4FBC00D7A46D /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = BE8E24272B1D4FBC00D7A46D /* popup.html */; };
-		BE8E245E2B1D4FBC00D7A46D /* metadata-retrieve.css in Resources */ = {isa = PBXBuildFile; fileRef = BE8E24282B1D4FBC00D7A46D /* metadata-retrieve.css */; };
-		BE8E245F2B1D4FBC00D7A46D /* popup-test.js in Resources */ = {isa = PBXBuildFile; fileRef = BE8E24292B1D4FBC00D7A46D /* popup-test.js */; };
-		BE8E24602B1D4FBC00D7A46D /* test-framework.js in Resources */ = {isa = PBXBuildFile; fileRef = BE8E242A2B1D4FBC00D7A46D /* test-framework.js */; };
-		BE8E24612B1D4FBC00D7A46D /* data-import.css in Resources */ = {isa = PBXBuildFile; fileRef = BE8E242B2B1D4FBC00D7A46D /* data-import.css */; };
-		BE8E24622B1D4FBC00D7A46D /* test-framework.html in Resources */ = {isa = PBXBuildFile; fileRef = BE8E242C2B1D4FBC00D7A46D /* test-framework.html */; };
-		BE8E24632B1D4FBC00D7A46D /* explore-api.html in Resources */ = {isa = PBXBuildFile; fileRef = BE8E242D2B1D4FBC00D7A46D /* explore-api.html */; };
-		BE8E24642B1D4FBC00D7A46D /* inspect-inline.css in Resources */ = {isa = PBXBuildFile; fileRef = BE8E242E2B1D4FBC00D7A46D /* inspect-inline.css */; };
-		BE8E24652B1D4FBC00D7A46D /* test-page.js in Resources */ = {isa = PBXBuildFile; fileRef = BE8E242F2B1D4FBC00D7A46D /* test-page.js */; };
-		BE8E24662B1D4FBC00D7A46D /* limits.js in Resources */ = {isa = PBXBuildFile; fileRef = BE8E24302B1D4FBC00D7A46D /* limits.js */; };
-		BE8E24672B1D4FBC00D7A46D /* sources.txt in Resources */ = {isa = PBXBuildFile; fileRef = BE8E24312B1D4FBC00D7A46D /* sources.txt */; };
-		BE8E24682B1D4FBC00D7A46D /* icon128.png in Resources */ = {isa = PBXBuildFile; fileRef = BE8E24322B1D4FBC00D7A46D /* icon128.png */; };
-		BE8E24692B1D4FBC00D7A46D /* data-import.js in Resources */ = {isa = PBXBuildFile; fileRef = BE8E24332B1D4FBC00D7A46D /* data-import.js */; };
-		BE8E246A2B1D4FBC00D7A46D /* styles in Resources */ = {isa = PBXBuildFile; fileRef = BE8E24342B1D4FBC00D7A46D /* styles */; };
-		BE8E246B2B1D4FBC00D7A46D /* react.min.js in Resources */ = {isa = PBXBuildFile; fileRef = BE8E24352B1D4FBC00D7A46D /* react.min.js */; };
-		BE8E246C2B1D4FBC00D7A46D /* flags.css in Resources */ = {isa = PBXBuildFile; fileRef = BE8E24362B1D4FBC00D7A46D /* flags.css */; };
-		BE8E246D2B1D4FBC00D7A46D /* limits.html in Resources */ = {isa = PBXBuildFile; fileRef = BE8E24372B1D4FBC00D7A46D /* limits.html */; };
-		BE8E246E2B1D4FBC00D7A46D /* react-dom.js in Resources */ = {isa = PBXBuildFile; fileRef = BE8E24382B1D4FBC00D7A46D /* react-dom.js */; };
-		BE8E246F2B1D4FBC00D7A46D /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = BE8E24392B1D4FBC00D7A46D /* manifest.json */; };
-		BE8E24702B1D4FBC00D7A46D /* test-page.html in Resources */ = {isa = PBXBuildFile; fileRef = BE8E243A2B1D4FBC00D7A46D /* test-page.html */; };
-		BE8E24712B1D4FBC00D7A46D /* data-export.html in Resources */ = {isa = PBXBuildFile; fileRef = BE8E243B2B1D4FBC00D7A46D /* data-export.html */; };
-		BE8E24722B1D4FBC00D7A46D /* explore-api.css in Resources */ = {isa = PBXBuildFile; fileRef = BE8E243C2B1D4FBC00D7A46D /* explore-api.css */; };
-		BE8E24732B1D4FBC00D7A46D /* button.css in Resources */ = {isa = PBXBuildFile; fileRef = BE8E243D2B1D4FBC00D7A46D /* button.css */; };
-		BE8E24742B1D4FBC00D7A46D /* csv-parse.js in Resources */ = {isa = PBXBuildFile; fileRef = BE8E243E2B1D4FBC00D7A46D /* csv-parse.js */; };
-		BE8E24752B1D4FBC00D7A46D /* data-import.html in Resources */ = {isa = PBXBuildFile; fileRef = BE8E243F2B1D4FBC00D7A46D /* data-import.html */; };
-		BE8E24762B1D4FBC00D7A46D /* button.js in Resources */ = {isa = PBXBuildFile; fileRef = BE8E24402B1D4FBC00D7A46D /* button.js */; };
-		BE8E24772B1D4FBC00D7A46D /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = BE8E24412B1D4FBC00D7A46D /* popup.css */; };
-		BE8E24782B1D4FBC00D7A46D /* data-load.css in Resources */ = {isa = PBXBuildFile; fileRef = BE8E24422B1D4FBC00D7A46D /* data-load.css */; };
-		BE8E24792B1D4FBC00D7A46D /* csv-parse-test.js in Resources */ = {isa = PBXBuildFile; fileRef = BE8E24432B1D4FBC00D7A46D /* csv-parse-test.js */; };
-		BE8E247A2B1D4FBC00D7A46D /* inspect.js in Resources */ = {isa = PBXBuildFile; fileRef = BE8E24442B1D4FBC00D7A46D /* inspect.js */; };
-		BE8E247B2B1D4FBC00D7A46D /* limits.css in Resources */ = {isa = PBXBuildFile; fileRef = BE8E24452B1D4FBC00D7A46D /* limits.css */; };
-		BE8E247C2B1D4FBC00D7A46D /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = BE8E24462B1D4FBC00D7A46D /* fonts */; };
-		BE8E247D2B1D4FBC00D7A46D /* manifest-template.json in Resources */ = {isa = PBXBuildFile; fileRef = BE8E24472B1D4FBC00D7A46D /* manifest-template.json */; };
-		BE8E247E2B1D4FBC00D7A46D /* explore-api.js in Resources */ = {isa = PBXBuildFile; fileRef = BE8E24482B1D4FBC00D7A46D /* explore-api.js */; };
-		BE8E247F2B1D4FBC00D7A46D /* data-load.js in Resources */ = {isa = PBXBuildFile; fileRef = BE8E24492B1D4FBC00D7A46D /* data-load.js */; };
-		BE8E24802B1D4FBC00D7A46D /* metadata-retrieve.html in Resources */ = {isa = PBXBuildFile; fileRef = BE8E244A2B1D4FBC00D7A46D /* metadata-retrieve.html */; };
-		BE8E24812B1D4FBC00D7A46D /* data-export.js in Resources */ = {isa = PBXBuildFile; fileRef = BE8E244B2B1D4FBC00D7A46D /* data-export.js */; };
-		BE8E24822B1D4FBC00D7A46D /* setup-links.js in Resources */ = {isa = PBXBuildFile; fileRef = BE8E244C2B1D4FBC00D7A46D /* setup-links.js */; };
+		BEEE5C282B27C2790040C132 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEE5C272B27C2790040C132 /* AppDelegate.swift */; };
+		BEEE5C2C2B27C2790040C132 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C2A2B27C2790040C132 /* Main.html */; };
+		BEEE5C2E2B27C2790040C132 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C2D2B27C2790040C132 /* Icon.png */; };
+		BEEE5C302B27C2790040C132 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C2F2B27C2790040C132 /* Style.css */; };
+		BEEE5C322B27C2790040C132 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C312B27C2790040C132 /* Script.js */; };
+		BEEE5C342B27C2790040C132 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEE5C332B27C2790040C132 /* ViewController.swift */; };
+		BEEE5C372B27C2790040C132 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C352B27C2790040C132 /* Main.storyboard */; };
+		BEEE5C392B27C27A0040C132 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C382B27C27A0040C132 /* Assets.xcassets */; };
+		BEEE5C412B27C27B0040C132 /* Safari Salesforce Inspector Reloaded Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BEEE5C402B27C27B0040C132 /* Safari Salesforce Inspector Reloaded Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BEEE5C462B27C27B0040C132 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEE5C452B27C27B0040C132 /* SafariWebExtensionHandler.swift */; };
+		BEEE5C492B27C27B0040C132 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C482B27C27B0040C132 /* _locales */; };
+		BEEE5C4D2B27C27B0040C132 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C4C2B27C27B0040C132 /* manifest.json */; };
+		BEEE5C852B27C38F0040C132 /* inspector.js in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C632B27C38E0040C132 /* inspector.js */; };
+		BEEE5C862B27C38F0040C132 /* links.js in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C642B27C38E0040C132 /* links.js */; };
+		BEEE5C872B27C38F0040C132 /* data-export-test.js in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C652B27C38E0040C132 /* data-export-test.js */; };
+		BEEE5C882B27C38F0040C132 /* limits.js in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C662B27C38E0040C132 /* limits.js */; };
+		BEEE5C892B27C38F0040C132 /* test-framework.js in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C672B27C38E0040C132 /* test-framework.js */; };
+		BEEE5C8A2B27C38F0040C132 /* inspect.css in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C682B27C38E0040C132 /* inspect.css */; };
+		BEEE5C8B2B27C38F0040C132 /* metadata-retrieve.js in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C692B27C38E0040C132 /* metadata-retrieve.js */; };
+		BEEE5C8C2B27C38F0040C132 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C6A2B27C38E0040C132 /* background.js */; };
+		BEEE5C8D2B27C38F0040C132 /* images in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C6B2B27C38E0040C132 /* images */; };
+		BEEE5C8E2B27C38F0040C132 /* explore-api.html in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C6C2B27C38E0040C132 /* explore-api.html */; };
+		BEEE5C8F2B27C38F0040C132 /* react.min.js in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C6D2B27C38E0040C132 /* react.min.js */; };
+		BEEE5C902B27C38F0040C132 /* limits.html in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C6E2B27C38E0040C132 /* limits.html */; };
+		BEEE5C912B27C38F0040C132 /* icon128.png in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C6F2B27C38E0040C132 /* icon128.png */; };
+		BEEE5C922B27C38F0040C132 /* metadata-retrieve.css in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C702B27C38E0040C132 /* metadata-retrieve.css */; };
+		BEEE5C932B27C38F0040C132 /* data-import.css in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C712B27C38E0040C132 /* data-import.css */; };
+		BEEE5C942B27C38F0040C132 /* react-dom.min.js in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C722B27C38E0040C132 /* react-dom.min.js */; };
+		BEEE5C952B27C38F0040C132 /* sources.txt in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C732B27C38E0040C132 /* sources.txt */; };
+		BEEE5C962B27C38F0040C132 /* inspect-inline.js in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C742B27C38E0040C132 /* inspect-inline.js */; };
+		BEEE5C972B27C38F0040C132 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C752B27C38E0040C132 /* popup.html */; };
+		BEEE5C982B27C38F0040C132 /* flags.css in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C762B27C38E0040C132 /* flags.css */; };
+		BEEE5C992B27C38F0040C132 /* test-framework.html in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C772B27C38E0040C132 /* test-framework.html */; };
+		BEEE5C9A2B27C38F0040C132 /* data-export.css in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C782B27C38E0040C132 /* data-export.css */; };
+		BEEE5C9B2B27C38F0040C132 /* inspect.html in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C792B27C38E0040C132 /* inspect.html */; };
+		BEEE5C9C2B27C38F0040C132 /* styles in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C7A2B27C38E0040C132 /* styles */; };
+		BEEE5C9D2B27C38F0040C132 /* popup-test.js in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C7B2B27C38E0040C132 /* popup-test.js */; };
+		BEEE5C9E2B27C38F0040C132 /* data-import-test.js in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C7C2B27C38E0040C132 /* data-import-test.js */; };
+		BEEE5C9F2B27C38F0040C132 /* slds-spinner.css in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C7D2B27C38E0040C132 /* slds-spinner.css */; };
+		BEEE5CA02B27C38F0040C132 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C7E2B27C38F0040C132 /* popup.js */; };
+		BEEE5CA12B27C38F0040C132 /* data-import.js in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C7F2B27C38F0040C132 /* data-import.js */; };
+		BEEE5CA22B27C38F0040C132 /* react.js in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C802B27C38F0040C132 /* react.js */; };
+		BEEE5CA32B27C38F0040C132 /* test-page.js in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C812B27C38F0040C132 /* test-page.js */; };
+		BEEE5CA42B27C38F0040C132 /* symbols.svg in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C822B27C38F0040C132 /* symbols.svg */; };
+		BEEE5CA52B27C38F0040C132 /* inspect-inline.css in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C832B27C38F0040C132 /* inspect-inline.css */; };
+		BEEE5CA62B27C38F0040C132 /* react-dom.js in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C842B27C38F0040C132 /* react-dom.js */; };
+		BEEE5CBA2B27C39C0040C132 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5CA72B27C39C0040C132 /* fonts */; };
+		BEEE5CBB2B27C39C0040C132 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5CA82B27C39C0040C132 /* popup.css */; };
+		BEEE5CBC2B27C39C0040C132 /* csv-parse.js in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5CA92B27C39C0040C132 /* csv-parse.js */; };
+		BEEE5CBD2B27C39C0040C132 /* limits.css in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5CAA2B27C39C0040C132 /* limits.css */; };
+		BEEE5CBE2B27C39C0040C132 /* data-import.html in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5CAB2B27C39C0040C132 /* data-import.html */; };
+		BEEE5CBF2B27C39C0040C132 /* inspect.js in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5CAC2B27C39C0040C132 /* inspect.js */; };
+		BEEE5CC02B27C39C0040C132 /* data-export.html in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5CAD2B27C39C0040C132 /* data-export.html */; };
+		BEEE5CC12B27C39C0040C132 /* setup-links.js in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5CAE2B27C39C0040C132 /* setup-links.js */; };
+		BEEE5CC22B27C39C0040C132 /* test-page.html in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5CAF2B27C39C0040C132 /* test-page.html */; };
+		BEEE5CC32B27C39C0040C132 /* csv-parse-test.js in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5CB02B27C39C0040C132 /* csv-parse-test.js */; };
+		BEEE5CC42B27C39C0040C132 /* manifest-template.json in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5CB12B27C39C0040C132 /* manifest-template.json */; };
+		BEEE5CC52B27C39C0040C132 /* explore-api.js in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5CB22B27C39C0040C132 /* explore-api.js */; };
+		BEEE5CC62B27C39C0040C132 /* data-export.js in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5CB32B27C39C0040C132 /* data-export.js */; };
+		BEEE5CC72B27C39C0040C132 /* metadata-retrieve.html in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5CB42B27C39C0040C132 /* metadata-retrieve.html */; };
+		BEEE5CC82B27C39C0040C132 /* explore-api.css in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5CB52B27C39C0040C132 /* explore-api.css */; };
+		BEEE5CC92B27C39C0040C132 /* button.css in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5CB62B27C39C0040C132 /* button.css */; };
+		BEEE5CCA2B27C39C0040C132 /* data-load.js in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5CB72B27C39C0040C132 /* data-load.js */; };
+		BEEE5CCB2B27C39C0040C132 /* button.js in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5CB82B27C39C0040C132 /* button.js */; };
+		BEEE5CCC2B27C39C0040C132 /* data-load.css in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5CB92B27C39C0040C132 /* data-load.css */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		BE8E24062B1D4FBC00D7A46D /* PBXContainerItemProxy */ = {
+		BEEE5C422B27C27B0040C132 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = BE8E23DF2B1D4FBA00D7A46D /* Project object */;
+			containerPortal = BEEE5C1C2B27C2790040C132 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BE8E24032B1D4FBC00D7A46D;
+			remoteGlobalIDString = BEEE5C3F2B27C27B0040C132;
 			remoteInfo = "Safari Salesforce Inspector Reloaded Extension";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		BE8E24122B1D4FBC00D7A46D /* Embed Foundation Extensions */ = {
+		BEEE5C5F2B27C27B0040C132 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				BE8E24052B1D4FBC00D7A46D /* Safari Salesforce Inspector Reloaded Extension.appex in Embed Foundation Extensions */,
+				BEEE5C412B27C27B0040C132 /* Safari Salesforce Inspector Reloaded Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -98,87 +99,87 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BE8E23E72B1D4FBA00D7A46D /* Safari Salesforce Inspector Reloaded.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Safari Salesforce Inspector Reloaded.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE8E23EA2B1D4FBA00D7A46D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BE8E23EE2B1D4FBA00D7A46D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
-		BE8E23F02B1D4FBA00D7A46D /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		BE8E23F22B1D4FBA00D7A46D /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
-		BE8E23F42B1D4FBA00D7A46D /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
-		BE8E23F62B1D4FBA00D7A46D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BE8E23F92B1D4FBA00D7A46D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BE8E23FB2B1D4FBC00D7A46D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BE8E23FD2B1D4FBC00D7A46D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BE8E23FE2B1D4FBC00D7A46D /* Safari_Salesforce_Inspector_Reloaded.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Safari_Salesforce_Inspector_Reloaded.entitlements; sourceTree = "<group>"; };
-		BE8E23FF2B1D4FBC00D7A46D /* Safari Salesforce Inspector Reloaded.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Safari Salesforce Inspector Reloaded.entitlements"; sourceTree = "<group>"; };
-		BE8E24042B1D4FBC00D7A46D /* Safari Salesforce Inspector Reloaded Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Safari Salesforce Inspector Reloaded Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE8E24092B1D4FBC00D7A46D /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
-		BE8E240B2B1D4FBC00D7A46D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BE8E240C2B1D4FBC00D7A46D /* Safari_Salesforce_Inspector_Reloaded_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Safari_Salesforce_Inspector_Reloaded_Extension.entitlements; sourceTree = "<group>"; };
-		BE8E24172B1D4FBC00D7A46D /* slds-spinner.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = "slds-spinner.css"; path = "../../addon/slds-spinner.css"; sourceTree = "<group>"; };
-		BE8E24182B1D4FBC00D7A46D /* data-export-test.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "data-export-test.js"; path = "../../addon/data-export-test.js"; sourceTree = "<group>"; };
-		BE8E24192B1D4FBC00D7A46D /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = popup.js; path = ../../addon/popup.js; sourceTree = "<group>"; };
-		BE8E241A2B1D4FBC00D7A46D /* metadata-retrieve.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "metadata-retrieve.js"; path = "../../addon/metadata-retrieve.js"; sourceTree = "<group>"; };
-		BE8E241B2B1D4FBC00D7A46D /* inspect-inline.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "inspect-inline.js"; path = "../../addon/inspect-inline.js"; sourceTree = "<group>"; };
-		BE8E241C2B1D4FBC00D7A46D /* data-import-test.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "data-import-test.js"; path = "../../addon/data-import-test.js"; sourceTree = "<group>"; };
-		BE8E241D2B1D4FBC00D7A46D /* inspect.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = inspect.css; path = ../../addon/inspect.css; sourceTree = "<group>"; };
-		BE8E241E2B1D4FBC00D7A46D /* links.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = links.js; path = ../../addon/links.js; sourceTree = "<group>"; };
-		BE8E241F2B1D4FBC00D7A46D /* symbols.svg */ = {isa = PBXFileReference; lastKnownFileType = text; name = symbols.svg; path = ../../addon/symbols.svg; sourceTree = "<group>"; };
-		BE8E24202B1D4FBC00D7A46D /* react-dom.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "react-dom.min.js"; path = "../../addon/react-dom.min.js"; sourceTree = "<group>"; };
-		BE8E24212B1D4FBC00D7A46D /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = ../../addon/background.js; sourceTree = "<group>"; };
-		BE8E24222B1D4FBC00D7A46D /* inspect.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = inspect.html; path = ../../addon/inspect.html; sourceTree = "<group>"; };
-		BE8E24232B1D4FBC00D7A46D /* inspector.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = inspector.js; path = ../../addon/inspector.js; sourceTree = "<group>"; };
-		BE8E24242B1D4FBC00D7A46D /* data-export.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = "data-export.css"; path = "../../addon/data-export.css"; sourceTree = "<group>"; };
-		BE8E24252B1D4FBC00D7A46D /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = ../../addon/images; sourceTree = "<group>"; };
-		BE8E24262B1D4FBC00D7A46D /* react.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = react.js; path = ../../addon/react.js; sourceTree = "<group>"; };
-		BE8E24272B1D4FBC00D7A46D /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = ../../addon/popup.html; sourceTree = "<group>"; };
-		BE8E24282B1D4FBC00D7A46D /* metadata-retrieve.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = "metadata-retrieve.css"; path = "../../addon/metadata-retrieve.css"; sourceTree = "<group>"; };
-		BE8E24292B1D4FBC00D7A46D /* popup-test.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "popup-test.js"; path = "../../addon/popup-test.js"; sourceTree = "<group>"; };
-		BE8E242A2B1D4FBC00D7A46D /* test-framework.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "test-framework.js"; path = "../../addon/test-framework.js"; sourceTree = "<group>"; };
-		BE8E242B2B1D4FBC00D7A46D /* data-import.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = "data-import.css"; path = "../../addon/data-import.css"; sourceTree = "<group>"; };
-		BE8E242C2B1D4FBC00D7A46D /* test-framework.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "test-framework.html"; path = "../../addon/test-framework.html"; sourceTree = "<group>"; };
-		BE8E242D2B1D4FBC00D7A46D /* explore-api.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "explore-api.html"; path = "../../addon/explore-api.html"; sourceTree = "<group>"; };
-		BE8E242E2B1D4FBC00D7A46D /* inspect-inline.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = "inspect-inline.css"; path = "../../addon/inspect-inline.css"; sourceTree = "<group>"; };
-		BE8E242F2B1D4FBC00D7A46D /* test-page.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "test-page.js"; path = "../../addon/test-page.js"; sourceTree = "<group>"; };
-		BE8E24302B1D4FBC00D7A46D /* limits.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = limits.js; path = ../../addon/limits.js; sourceTree = "<group>"; };
-		BE8E24312B1D4FBC00D7A46D /* sources.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = sources.txt; path = ../../addon/sources.txt; sourceTree = "<group>"; };
-		BE8E24322B1D4FBC00D7A46D /* icon128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon128.png; path = ../../addon/icon128.png; sourceTree = "<group>"; };
-		BE8E24332B1D4FBC00D7A46D /* data-import.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "data-import.js"; path = "../../addon/data-import.js"; sourceTree = "<group>"; };
-		BE8E24342B1D4FBC00D7A46D /* styles */ = {isa = PBXFileReference; lastKnownFileType = folder; name = styles; path = ../../addon/styles; sourceTree = "<group>"; };
-		BE8E24352B1D4FBC00D7A46D /* react.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = react.min.js; path = ../../addon/react.min.js; sourceTree = "<group>"; };
-		BE8E24362B1D4FBC00D7A46D /* flags.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = flags.css; path = ../../addon/flags.css; sourceTree = "<group>"; };
-		BE8E24372B1D4FBC00D7A46D /* limits.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = limits.html; path = ../../addon/limits.html; sourceTree = "<group>"; };
-		BE8E24382B1D4FBC00D7A46D /* react-dom.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "react-dom.js"; path = "../../addon/react-dom.js"; sourceTree = "<group>"; };
-		BE8E24392B1D4FBC00D7A46D /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../addon/manifest.json; sourceTree = "<group>"; };
-		BE8E243A2B1D4FBC00D7A46D /* test-page.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "test-page.html"; path = "../../addon/test-page.html"; sourceTree = "<group>"; };
-		BE8E243B2B1D4FBC00D7A46D /* data-export.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "data-export.html"; path = "../../addon/data-export.html"; sourceTree = "<group>"; };
-		BE8E243C2B1D4FBC00D7A46D /* explore-api.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = "explore-api.css"; path = "../../addon/explore-api.css"; sourceTree = "<group>"; };
-		BE8E243D2B1D4FBC00D7A46D /* button.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = button.css; path = ../../addon/button.css; sourceTree = "<group>"; };
-		BE8E243E2B1D4FBC00D7A46D /* csv-parse.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "csv-parse.js"; path = "../../addon/csv-parse.js"; sourceTree = "<group>"; };
-		BE8E243F2B1D4FBC00D7A46D /* data-import.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "data-import.html"; path = "../../addon/data-import.html"; sourceTree = "<group>"; };
-		BE8E24402B1D4FBC00D7A46D /* button.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = button.js; path = ../../addon/button.js; sourceTree = "<group>"; };
-		BE8E24412B1D4FBC00D7A46D /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = popup.css; path = ../../addon/popup.css; sourceTree = "<group>"; };
-		BE8E24422B1D4FBC00D7A46D /* data-load.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = "data-load.css"; path = "../../addon/data-load.css"; sourceTree = "<group>"; };
-		BE8E24432B1D4FBC00D7A46D /* csv-parse-test.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "csv-parse-test.js"; path = "../../addon/csv-parse-test.js"; sourceTree = "<group>"; };
-		BE8E24442B1D4FBC00D7A46D /* inspect.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = inspect.js; path = ../../addon/inspect.js; sourceTree = "<group>"; };
-		BE8E24452B1D4FBC00D7A46D /* limits.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = limits.css; path = ../../addon/limits.css; sourceTree = "<group>"; };
-		BE8E24462B1D4FBC00D7A46D /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fonts; path = ../../addon/fonts; sourceTree = "<group>"; };
-		BE8E24472B1D4FBC00D7A46D /* manifest-template.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "manifest-template.json"; path = "../../addon/manifest-template.json"; sourceTree = "<group>"; };
-		BE8E24482B1D4FBC00D7A46D /* explore-api.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "explore-api.js"; path = "../../addon/explore-api.js"; sourceTree = "<group>"; };
-		BE8E24492B1D4FBC00D7A46D /* data-load.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "data-load.js"; path = "../../addon/data-load.js"; sourceTree = "<group>"; };
-		BE8E244A2B1D4FBC00D7A46D /* metadata-retrieve.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "metadata-retrieve.html"; path = "../../addon/metadata-retrieve.html"; sourceTree = "<group>"; };
-		BE8E244B2B1D4FBC00D7A46D /* data-export.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "data-export.js"; path = "../../addon/data-export.js"; sourceTree = "<group>"; };
-		BE8E244C2B1D4FBC00D7A46D /* setup-links.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "setup-links.js"; path = "../../addon/setup-links.js"; sourceTree = "<group>"; };
+		BEEE5C242B27C2790040C132 /* Safari Salesforce Inspector Reloaded.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Safari Salesforce Inspector Reloaded.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEEE5C272B27C2790040C132 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEEE5C2B2B27C2790040C132 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		BEEE5C2D2B27C2790040C132 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		BEEE5C2F2B27C2790040C132 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		BEEE5C312B27C2790040C132 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		BEEE5C332B27C2790040C132 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEEE5C362B27C2790040C132 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEEE5C382B27C27A0040C132 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEEE5C3A2B27C27A0040C132 /* Safari_Salesforce_Inspector_Reloaded.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Safari_Salesforce_Inspector_Reloaded.entitlements; sourceTree = "<group>"; };
+		BEEE5C3B2B27C27A0040C132 /* Safari Salesforce Inspector Reloaded.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Safari Salesforce Inspector Reloaded.entitlements"; sourceTree = "<group>"; };
+		BEEE5C402B27C27B0040C132 /* Safari Salesforce Inspector Reloaded Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Safari Salesforce Inspector Reloaded Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEEE5C452B27C27B0040C132 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		BEEE5C482B27C27B0040C132 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		BEEE5C4C2B27C27B0040C132 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		BEEE5C582B27C27B0040C132 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEEE5C592B27C27B0040C132 /* Safari_Salesforce_Inspector_Reloaded_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Safari_Salesforce_Inspector_Reloaded_Extension.entitlements; sourceTree = "<group>"; };
+		BEEE5C632B27C38E0040C132 /* inspector.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = inspector.js; sourceTree = "<group>"; };
+		BEEE5C642B27C38E0040C132 /* links.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = links.js; sourceTree = "<group>"; };
+		BEEE5C652B27C38E0040C132 /* data-export-test.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "data-export-test.js"; sourceTree = "<group>"; };
+		BEEE5C662B27C38E0040C132 /* limits.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = limits.js; sourceTree = "<group>"; };
+		BEEE5C672B27C38E0040C132 /* test-framework.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "test-framework.js"; sourceTree = "<group>"; };
+		BEEE5C682B27C38E0040C132 /* inspect.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = inspect.css; sourceTree = "<group>"; };
+		BEEE5C692B27C38E0040C132 /* metadata-retrieve.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "metadata-retrieve.js"; sourceTree = "<group>"; };
+		BEEE5C6A2B27C38E0040C132 /* background.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = background.js; path = "../../../Safari-Salesforce-Inspector-Reloaded/addon/background.js"; sourceTree = "<group>"; };
+		BEEE5C6B2B27C38E0040C132 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		BEEE5C6C2B27C38E0040C132 /* explore-api.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "explore-api.html"; sourceTree = "<group>"; };
+		BEEE5C6D2B27C38E0040C132 /* react.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = react.min.js; sourceTree = "<group>"; };
+		BEEE5C6E2B27C38E0040C132 /* limits.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = limits.html; sourceTree = "<group>"; };
+		BEEE5C6F2B27C38E0040C132 /* icon128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon128.png; sourceTree = "<group>"; };
+		BEEE5C702B27C38E0040C132 /* metadata-retrieve.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "metadata-retrieve.css"; sourceTree = "<group>"; };
+		BEEE5C712B27C38E0040C132 /* data-import.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "data-import.css"; sourceTree = "<group>"; };
+		BEEE5C722B27C38E0040C132 /* react-dom.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "react-dom.min.js"; sourceTree = "<group>"; };
+		BEEE5C732B27C38E0040C132 /* sources.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sources.txt; sourceTree = "<group>"; };
+		BEEE5C742B27C38E0040C132 /* inspect-inline.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "inspect-inline.js"; sourceTree = "<group>"; };
+		BEEE5C752B27C38E0040C132 /* popup.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = popup.html; path = "../../../Safari-Salesforce-Inspector-Reloaded/addon/popup.html"; sourceTree = "<group>"; };
+		BEEE5C762B27C38E0040C132 /* flags.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = flags.css; sourceTree = "<group>"; };
+		BEEE5C772B27C38E0040C132 /* test-framework.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "test-framework.html"; sourceTree = "<group>"; };
+		BEEE5C782B27C38E0040C132 /* data-export.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "data-export.css"; sourceTree = "<group>"; };
+		BEEE5C792B27C38E0040C132 /* inspect.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = inspect.html; sourceTree = "<group>"; };
+		BEEE5C7A2B27C38E0040C132 /* styles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = styles; sourceTree = "<group>"; };
+		BEEE5C7B2B27C38E0040C132 /* popup-test.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "popup-test.js"; sourceTree = "<group>"; };
+		BEEE5C7C2B27C38E0040C132 /* data-import-test.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "data-import-test.js"; sourceTree = "<group>"; };
+		BEEE5C7D2B27C38E0040C132 /* slds-spinner.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "slds-spinner.css"; sourceTree = "<group>"; };
+		BEEE5C7E2B27C38F0040C132 /* popup.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = popup.js; path = "../../../Safari-Salesforce-Inspector-Reloaded/addon/popup.js"; sourceTree = "<group>"; };
+		BEEE5C7F2B27C38F0040C132 /* data-import.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "data-import.js"; sourceTree = "<group>"; };
+		BEEE5C802B27C38F0040C132 /* react.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = react.js; sourceTree = "<group>"; };
+		BEEE5C812B27C38F0040C132 /* test-page.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "test-page.js"; sourceTree = "<group>"; };
+		BEEE5C822B27C38F0040C132 /* symbols.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = symbols.svg; sourceTree = "<group>"; };
+		BEEE5C832B27C38F0040C132 /* inspect-inline.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "inspect-inline.css"; sourceTree = "<group>"; };
+		BEEE5C842B27C38F0040C132 /* react-dom.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "react-dom.js"; sourceTree = "<group>"; };
+		BEEE5CA72B27C39C0040C132 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
+		BEEE5CA82B27C39C0040C132 /* popup.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = popup.css; path = "../../../Safari-Salesforce-Inspector-Reloaded/addon/popup.css"; sourceTree = "<group>"; };
+		BEEE5CA92B27C39C0040C132 /* csv-parse.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "csv-parse.js"; sourceTree = "<group>"; };
+		BEEE5CAA2B27C39C0040C132 /* limits.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = limits.css; sourceTree = "<group>"; };
+		BEEE5CAB2B27C39C0040C132 /* data-import.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "data-import.html"; sourceTree = "<group>"; };
+		BEEE5CAC2B27C39C0040C132 /* inspect.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = inspect.js; sourceTree = "<group>"; };
+		BEEE5CAD2B27C39C0040C132 /* data-export.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "data-export.html"; sourceTree = "<group>"; };
+		BEEE5CAE2B27C39C0040C132 /* setup-links.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "setup-links.js"; sourceTree = "<group>"; };
+		BEEE5CAF2B27C39C0040C132 /* test-page.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "test-page.html"; sourceTree = "<group>"; };
+		BEEE5CB02B27C39C0040C132 /* csv-parse-test.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "csv-parse-test.js"; sourceTree = "<group>"; };
+		BEEE5CB12B27C39C0040C132 /* manifest-template.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "manifest-template.json"; sourceTree = "<group>"; };
+		BEEE5CB22B27C39C0040C132 /* explore-api.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "explore-api.js"; sourceTree = "<group>"; };
+		BEEE5CB32B27C39C0040C132 /* data-export.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "data-export.js"; sourceTree = "<group>"; };
+		BEEE5CB42B27C39C0040C132 /* metadata-retrieve.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "metadata-retrieve.html"; sourceTree = "<group>"; };
+		BEEE5CB52B27C39C0040C132 /* explore-api.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "explore-api.css"; sourceTree = "<group>"; };
+		BEEE5CB62B27C39C0040C132 /* button.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = button.css; sourceTree = "<group>"; };
+		BEEE5CB72B27C39C0040C132 /* data-load.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "data-load.js"; sourceTree = "<group>"; };
+		BEEE5CB82B27C39C0040C132 /* button.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = button.js; sourceTree = "<group>"; };
+		BEEE5CB92B27C39C0040C132 /* data-load.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "data-load.css"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BE8E23E42B1D4FBA00D7A46D /* Frameworks */ = {
+		BEEE5C212B27C2790040C132 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE8E24012B1D4FBC00D7A46D /* Frameworks */ = {
+		BEEE5C3D2B27C27B0040C132 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -188,152 +189,151 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BE8E23DE2B1D4FBA00D7A46D = {
+		BEEE5C1B2B27C2790040C132 = {
 			isa = PBXGroup;
 			children = (
-				BE8E23E92B1D4FBA00D7A46D /* Safari Salesforce Inspector Reloaded */,
-				BE8E24082B1D4FBC00D7A46D /* Safari Salesforce Inspector Reloaded Extension */,
-				BE8E23E82B1D4FBA00D7A46D /* Products */,
+				BEEE5C262B27C2790040C132 /* Safari Salesforce Inspector Reloaded */,
+				BEEE5C442B27C27B0040C132 /* Safari Salesforce Inspector Reloaded Extension */,
+				BEEE5C252B27C2790040C132 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BE8E23E82B1D4FBA00D7A46D /* Products */ = {
+		BEEE5C252B27C2790040C132 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BE8E23E72B1D4FBA00D7A46D /* Safari Salesforce Inspector Reloaded.app */,
-				BE8E24042B1D4FBC00D7A46D /* Safari Salesforce Inspector Reloaded Extension.appex */,
+				BEEE5C242B27C2790040C132 /* Safari Salesforce Inspector Reloaded.app */,
+				BEEE5C402B27C27B0040C132 /* Safari Salesforce Inspector Reloaded Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BE8E23E92B1D4FBA00D7A46D /* Safari Salesforce Inspector Reloaded */ = {
+		BEEE5C262B27C2790040C132 /* Safari Salesforce Inspector Reloaded */ = {
 			isa = PBXGroup;
 			children = (
-				BE8E23EA2B1D4FBA00D7A46D /* AppDelegate.swift */,
-				BE8E23F62B1D4FBA00D7A46D /* ViewController.swift */,
-				BE8E23F82B1D4FBA00D7A46D /* Main.storyboard */,
-				BE8E23FB2B1D4FBC00D7A46D /* Assets.xcassets */,
-				BE8E23FD2B1D4FBC00D7A46D /* Info.plist */,
-				BE8E23FE2B1D4FBC00D7A46D /* Safari_Salesforce_Inspector_Reloaded.entitlements */,
-				BE8E23FF2B1D4FBC00D7A46D /* Safari Salesforce Inspector Reloaded.entitlements */,
-				BE8E23EC2B1D4FBA00D7A46D /* Resources */,
+				BEEE5C272B27C2790040C132 /* AppDelegate.swift */,
+				BEEE5C332B27C2790040C132 /* ViewController.swift */,
+				BEEE5C352B27C2790040C132 /* Main.storyboard */,
+				BEEE5C382B27C27A0040C132 /* Assets.xcassets */,
+				BEEE5C3A2B27C27A0040C132 /* Safari_Salesforce_Inspector_Reloaded.entitlements */,
+				BEEE5C3B2B27C27A0040C132 /* Safari Salesforce Inspector Reloaded.entitlements */,
+				BEEE5C292B27C2790040C132 /* Resources */,
 			);
 			path = "Safari Salesforce Inspector Reloaded";
 			sourceTree = "<group>";
 		};
-		BE8E23EC2B1D4FBA00D7A46D /* Resources */ = {
+		BEEE5C292B27C2790040C132 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				BE8E23ED2B1D4FBA00D7A46D /* Main.html */,
-				BE8E23F02B1D4FBA00D7A46D /* Icon.png */,
-				BE8E23F22B1D4FBA00D7A46D /* Style.css */,
-				BE8E23F42B1D4FBA00D7A46D /* Script.js */,
+				BEEE5C2A2B27C2790040C132 /* Main.html */,
+				BEEE5C2D2B27C2790040C132 /* Icon.png */,
+				BEEE5C2F2B27C2790040C132 /* Style.css */,
+				BEEE5C312B27C2790040C132 /* Script.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		BE8E24082B1D4FBC00D7A46D /* Safari Salesforce Inspector Reloaded Extension */ = {
+		BEEE5C442B27C27B0040C132 /* Safari Salesforce Inspector Reloaded Extension */ = {
 			isa = PBXGroup;
 			children = (
-				BE8E24162B1D4FBC00D7A46D /* Resources */,
-				BE8E24092B1D4FBC00D7A46D /* SafariWebExtensionHandler.swift */,
-				BE8E240B2B1D4FBC00D7A46D /* Info.plist */,
-				BE8E240C2B1D4FBC00D7A46D /* Safari_Salesforce_Inspector_Reloaded_Extension.entitlements */,
+				BEEE5C452B27C27B0040C132 /* SafariWebExtensionHandler.swift */,
+				BEEE5C582B27C27B0040C132 /* Info.plist */,
+				BEEE5C592B27C27B0040C132 /* Safari_Salesforce_Inspector_Reloaded_Extension.entitlements */,
+				BEEE5C472B27C27B0040C132 /* Resources */,
 			);
 			path = "Safari Salesforce Inspector Reloaded Extension";
 			sourceTree = "<group>";
 		};
-		BE8E24162B1D4FBC00D7A46D /* Resources */ = {
+		BEEE5C472B27C27B0040C132 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				BE8E24172B1D4FBC00D7A46D /* slds-spinner.css */,
-				BE8E24182B1D4FBC00D7A46D /* data-export-test.js */,
-				BE8E24192B1D4FBC00D7A46D /* popup.js */,
-				BE8E241A2B1D4FBC00D7A46D /* metadata-retrieve.js */,
-				BE8E241B2B1D4FBC00D7A46D /* inspect-inline.js */,
-				BE8E241C2B1D4FBC00D7A46D /* data-import-test.js */,
-				BE8E241D2B1D4FBC00D7A46D /* inspect.css */,
-				BE8E241E2B1D4FBC00D7A46D /* links.js */,
-				BE8E241F2B1D4FBC00D7A46D /* symbols.svg */,
-				BE8E24202B1D4FBC00D7A46D /* react-dom.min.js */,
-				BE8E24212B1D4FBC00D7A46D /* background.js */,
-				BE8E24222B1D4FBC00D7A46D /* inspect.html */,
-				BE8E24232B1D4FBC00D7A46D /* inspector.js */,
-				BE8E24242B1D4FBC00D7A46D /* data-export.css */,
-				BE8E24252B1D4FBC00D7A46D /* images */,
-				BE8E24262B1D4FBC00D7A46D /* react.js */,
-				BE8E24272B1D4FBC00D7A46D /* popup.html */,
-				BE8E24282B1D4FBC00D7A46D /* metadata-retrieve.css */,
-				BE8E24292B1D4FBC00D7A46D /* popup-test.js */,
-				BE8E242A2B1D4FBC00D7A46D /* test-framework.js */,
-				BE8E242B2B1D4FBC00D7A46D /* data-import.css */,
-				BE8E242C2B1D4FBC00D7A46D /* test-framework.html */,
-				BE8E242D2B1D4FBC00D7A46D /* explore-api.html */,
-				BE8E242E2B1D4FBC00D7A46D /* inspect-inline.css */,
-				BE8E242F2B1D4FBC00D7A46D /* test-page.js */,
-				BE8E24302B1D4FBC00D7A46D /* limits.js */,
-				BE8E24312B1D4FBC00D7A46D /* sources.txt */,
-				BE8E24322B1D4FBC00D7A46D /* icon128.png */,
-				BE8E24332B1D4FBC00D7A46D /* data-import.js */,
-				BE8E24342B1D4FBC00D7A46D /* styles */,
-				BE8E24352B1D4FBC00D7A46D /* react.min.js */,
-				BE8E24362B1D4FBC00D7A46D /* flags.css */,
-				BE8E24372B1D4FBC00D7A46D /* limits.html */,
-				BE8E24382B1D4FBC00D7A46D /* react-dom.js */,
-				BE8E24392B1D4FBC00D7A46D /* manifest.json */,
-				BE8E243A2B1D4FBC00D7A46D /* test-page.html */,
-				BE8E243B2B1D4FBC00D7A46D /* data-export.html */,
-				BE8E243C2B1D4FBC00D7A46D /* explore-api.css */,
-				BE8E243D2B1D4FBC00D7A46D /* button.css */,
-				BE8E243E2B1D4FBC00D7A46D /* csv-parse.js */,
-				BE8E243F2B1D4FBC00D7A46D /* data-import.html */,
-				BE8E24402B1D4FBC00D7A46D /* button.js */,
-				BE8E24412B1D4FBC00D7A46D /* popup.css */,
-				BE8E24422B1D4FBC00D7A46D /* data-load.css */,
-				BE8E24432B1D4FBC00D7A46D /* csv-parse-test.js */,
-				BE8E24442B1D4FBC00D7A46D /* inspect.js */,
-				BE8E24452B1D4FBC00D7A46D /* limits.css */,
-				BE8E24462B1D4FBC00D7A46D /* fonts */,
-				BE8E24472B1D4FBC00D7A46D /* manifest-template.json */,
-				BE8E24482B1D4FBC00D7A46D /* explore-api.js */,
-				BE8E24492B1D4FBC00D7A46D /* data-load.js */,
-				BE8E244A2B1D4FBC00D7A46D /* metadata-retrieve.html */,
-				BE8E244B2B1D4FBC00D7A46D /* data-export.js */,
-				BE8E244C2B1D4FBC00D7A46D /* setup-links.js */,
+				BEEE5C6A2B27C38E0040C132 /* background.js */,
+				BEEE5C652B27C38E0040C132 /* data-export-test.js */,
+				BEEE5C782B27C38E0040C132 /* data-export.css */,
+				BEEE5C7C2B27C38E0040C132 /* data-import-test.js */,
+				BEEE5C712B27C38E0040C132 /* data-import.css */,
+				BEEE5C7F2B27C38F0040C132 /* data-import.js */,
+				BEEE5C6C2B27C38E0040C132 /* explore-api.html */,
+				BEEE5C762B27C38E0040C132 /* flags.css */,
+				BEEE5C6F2B27C38E0040C132 /* icon128.png */,
+				BEEE5C6B2B27C38E0040C132 /* images */,
+				BEEE5C832B27C38F0040C132 /* inspect-inline.css */,
+				BEEE5C742B27C38E0040C132 /* inspect-inline.js */,
+				BEEE5C682B27C38E0040C132 /* inspect.css */,
+				BEEE5C792B27C38E0040C132 /* inspect.html */,
+				BEEE5C632B27C38E0040C132 /* inspector.js */,
+				BEEE5C6E2B27C38E0040C132 /* limits.html */,
+				BEEE5C662B27C38E0040C132 /* limits.js */,
+				BEEE5C642B27C38E0040C132 /* links.js */,
+				BEEE5C702B27C38E0040C132 /* metadata-retrieve.css */,
+				BEEE5C692B27C38E0040C132 /* metadata-retrieve.js */,
+				BEEE5C7B2B27C38E0040C132 /* popup-test.js */,
+				BEEE5C752B27C38E0040C132 /* popup.html */,
+				BEEE5C7E2B27C38F0040C132 /* popup.js */,
+				BEEE5C842B27C38F0040C132 /* react-dom.js */,
+				BEEE5C722B27C38E0040C132 /* react-dom.min.js */,
+				BEEE5C802B27C38F0040C132 /* react.js */,
+				BEEE5C6D2B27C38E0040C132 /* react.min.js */,
+				BEEE5CB62B27C39C0040C132 /* button.css */,
+				BEEE5CB82B27C39C0040C132 /* button.js */,
+				BEEE5CB02B27C39C0040C132 /* csv-parse-test.js */,
+				BEEE5CA92B27C39C0040C132 /* csv-parse.js */,
+				BEEE5CAD2B27C39C0040C132 /* data-export.html */,
+				BEEE5CB32B27C39C0040C132 /* data-export.js */,
+				BEEE5CAB2B27C39C0040C132 /* data-import.html */,
+				BEEE5CB92B27C39C0040C132 /* data-load.css */,
+				BEEE5CB72B27C39C0040C132 /* data-load.js */,
+				BEEE5CB52B27C39C0040C132 /* explore-api.css */,
+				BEEE5CB22B27C39C0040C132 /* explore-api.js */,
+				BEEE5CA72B27C39C0040C132 /* fonts */,
+				BEEE5CAC2B27C39C0040C132 /* inspect.js */,
+				BEEE5CAA2B27C39C0040C132 /* limits.css */,
+				BEEE5CB12B27C39C0040C132 /* manifest-template.json */,
+				BEEE5CB42B27C39C0040C132 /* metadata-retrieve.html */,
+				BEEE5CA82B27C39C0040C132 /* popup.css */,
+				BEEE5CAE2B27C39C0040C132 /* setup-links.js */,
+				BEEE5CAF2B27C39C0040C132 /* test-page.html */,
+				BEEE5C7D2B27C38E0040C132 /* slds-spinner.css */,
+				BEEE5C732B27C38E0040C132 /* sources.txt */,
+				BEEE5C7A2B27C38E0040C132 /* styles */,
+				BEEE5C822B27C38F0040C132 /* symbols.svg */,
+				BEEE5C772B27C38E0040C132 /* test-framework.html */,
+				BEEE5C672B27C38E0040C132 /* test-framework.js */,
+				BEEE5C812B27C38F0040C132 /* test-page.js */,
+				BEEE5C482B27C27B0040C132 /* _locales */,
+				BEEE5C4C2B27C27B0040C132 /* manifest.json */,
 			);
-			name = Resources;
-			path = "Safari Salesforce Inspector Reloaded Extension";
-			sourceTree = SOURCE_ROOT;
+			path = Resources;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BE8E23E62B1D4FBA00D7A46D /* Safari Salesforce Inspector Reloaded */ = {
+		BEEE5C232B27C2790040C132 /* Safari Salesforce Inspector Reloaded */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE8E24132B1D4FBC00D7A46D /* Build configuration list for PBXNativeTarget "Safari Salesforce Inspector Reloaded" */;
+			buildConfigurationList = BEEE5C602B27C27B0040C132 /* Build configuration list for PBXNativeTarget "Safari Salesforce Inspector Reloaded" */;
 			buildPhases = (
-				BE8E23E32B1D4FBA00D7A46D /* Sources */,
-				BE8E23E42B1D4FBA00D7A46D /* Frameworks */,
-				BE8E23E52B1D4FBA00D7A46D /* Resources */,
-				BE8E24122B1D4FBC00D7A46D /* Embed Foundation Extensions */,
+				BEEE5C202B27C2790040C132 /* Sources */,
+				BEEE5C212B27C2790040C132 /* Frameworks */,
+				BEEE5C222B27C2790040C132 /* Resources */,
+				BEEE5C5F2B27C27B0040C132 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BE8E24072B1D4FBC00D7A46D /* PBXTargetDependency */,
+				BEEE5C432B27C27B0040C132 /* PBXTargetDependency */,
 			);
 			name = "Safari Salesforce Inspector Reloaded";
 			productName = "Safari Salesforce Inspector Reloaded";
-			productReference = BE8E23E72B1D4FBA00D7A46D /* Safari Salesforce Inspector Reloaded.app */;
+			productReference = BEEE5C242B27C2790040C132 /* Safari Salesforce Inspector Reloaded.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BE8E24032B1D4FBC00D7A46D /* Safari Salesforce Inspector Reloaded Extension */ = {
+		BEEE5C3F2B27C27B0040C132 /* Safari Salesforce Inspector Reloaded Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE8E240F2B1D4FBC00D7A46D /* Build configuration list for PBXNativeTarget "Safari Salesforce Inspector Reloaded Extension" */;
+			buildConfigurationList = BEEE5C5C2B27C27B0040C132 /* Build configuration list for PBXNativeTarget "Safari Salesforce Inspector Reloaded Extension" */;
 			buildPhases = (
-				BE8E24002B1D4FBC00D7A46D /* Sources */,
-				BE8E24012B1D4FBC00D7A46D /* Frameworks */,
-				BE8E24022B1D4FBC00D7A46D /* Resources */,
+				BEEE5C3C2B27C27B0040C132 /* Sources */,
+				BEEE5C3D2B27C27B0040C132 /* Frameworks */,
+				BEEE5C3E2B27C27B0040C132 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -341,28 +341,28 @@
 			);
 			name = "Safari Salesforce Inspector Reloaded Extension";
 			productName = "Safari Salesforce Inspector Reloaded Extension";
-			productReference = BE8E24042B1D4FBC00D7A46D /* Safari Salesforce Inspector Reloaded Extension.appex */;
+			productReference = BEEE5C402B27C27B0040C132 /* Safari Salesforce Inspector Reloaded Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BE8E23DF2B1D4FBA00D7A46D /* Project object */ = {
+		BEEE5C1C2B27C2790040C132 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					BE8E23E62B1D4FBA00D7A46D = {
+					BEEE5C232B27C2790040C132 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
-					BE8E24032B1D4FBC00D7A46D = {
+					BEEE5C3F2B27C27B0040C132 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
 			};
-			buildConfigurationList = BE8E23E22B1D4FBA00D7A46D /* Build configuration list for PBXProject "Safari Salesforce Inspector Reloaded" */;
+			buildConfigurationList = BEEE5C1F2B27C2790040C132 /* Build configuration list for PBXProject "Safari Salesforce Inspector Reloaded" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -370,135 +370,136 @@
 				en,
 				Base,
 			);
-			mainGroup = BE8E23DE2B1D4FBA00D7A46D;
-			productRefGroup = BE8E23E82B1D4FBA00D7A46D /* Products */;
+			mainGroup = BEEE5C1B2B27C2790040C132;
+			productRefGroup = BEEE5C252B27C2790040C132 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BE8E23E62B1D4FBA00D7A46D /* Safari Salesforce Inspector Reloaded */,
-				BE8E24032B1D4FBC00D7A46D /* Safari Salesforce Inspector Reloaded Extension */,
+				BEEE5C232B27C2790040C132 /* Safari Salesforce Inspector Reloaded */,
+				BEEE5C3F2B27C27B0040C132 /* Safari Salesforce Inspector Reloaded Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BE8E23E52B1D4FBA00D7A46D /* Resources */ = {
+		BEEE5C222B27C2790040C132 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE8E23F12B1D4FBA00D7A46D /* Icon.png in Resources */,
-				BE8E23FA2B1D4FBA00D7A46D /* Main.storyboard in Resources */,
-				BE8E23F52B1D4FBA00D7A46D /* Script.js in Resources */,
-				BE8E23EF2B1D4FBA00D7A46D /* Main.html in Resources */,
-				BE8E23FC2B1D4FBC00D7A46D /* Assets.xcassets in Resources */,
-				BE8E23F32B1D4FBA00D7A46D /* Style.css in Resources */,
+				BEEE5C2E2B27C2790040C132 /* Icon.png in Resources */,
+				BEEE5C372B27C2790040C132 /* Main.storyboard in Resources */,
+				BEEE5C322B27C2790040C132 /* Script.js in Resources */,
+				BEEE5C2C2B27C2790040C132 /* Main.html in Resources */,
+				BEEE5C392B27C27A0040C132 /* Assets.xcassets in Resources */,
+				BEEE5C302B27C2790040C132 /* Style.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE8E24022B1D4FBC00D7A46D /* Resources */ = {
+		BEEE5C3E2B27C27B0040C132 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE8E24772B1D4FBC00D7A46D /* popup.css in Resources */,
-				BE8E24802B1D4FBC00D7A46D /* metadata-retrieve.html in Resources */,
-				BE8E24722B1D4FBC00D7A46D /* explore-api.css in Resources */,
-				BE8E24652B1D4FBC00D7A46D /* test-page.js in Resources */,
-				BE8E24812B1D4FBC00D7A46D /* data-export.js in Resources */,
-				BE8E246E2B1D4FBC00D7A46D /* react-dom.js in Resources */,
-				BE8E245B2B1D4FBC00D7A46D /* images in Resources */,
-				BE8E24732B1D4FBC00D7A46D /* button.css in Resources */,
-				BE8E24512B1D4FBC00D7A46D /* inspect-inline.js in Resources */,
-				BE8E245C2B1D4FBC00D7A46D /* react.js in Resources */,
-				BE8E24672B1D4FBC00D7A46D /* sources.txt in Resources */,
-				BE8E24712B1D4FBC00D7A46D /* data-export.html in Resources */,
-				BE8E247D2B1D4FBC00D7A46D /* manifest-template.json in Resources */,
-				BE8E244E2B1D4FBC00D7A46D /* data-export-test.js in Resources */,
-				BE8E24782B1D4FBC00D7A46D /* data-load.css in Resources */,
-				BE8E24682B1D4FBC00D7A46D /* icon128.png in Resources */,
-				BE8E245E2B1D4FBC00D7A46D /* metadata-retrieve.css in Resources */,
-				BE8E247F2B1D4FBC00D7A46D /* data-load.js in Resources */,
-				BE8E247B2B1D4FBC00D7A46D /* limits.css in Resources */,
-				BE8E247C2B1D4FBC00D7A46D /* fonts in Resources */,
-				BE8E245F2B1D4FBC00D7A46D /* popup-test.js in Resources */,
-				BE8E24552B1D4FBC00D7A46D /* symbols.svg in Resources */,
-				BE8E246A2B1D4FBC00D7A46D /* styles in Resources */,
-				BE8E24692B1D4FBC00D7A46D /* data-import.js in Resources */,
-				BE8E24532B1D4FBC00D7A46D /* inspect.css in Resources */,
-				BE8E246C2B1D4FBC00D7A46D /* flags.css in Resources */,
-				BE8E24702B1D4FBC00D7A46D /* test-page.html in Resources */,
-				BE8E24752B1D4FBC00D7A46D /* data-import.html in Resources */,
-				BE8E247E2B1D4FBC00D7A46D /* explore-api.js in Resources */,
-				BE8E244F2B1D4FBC00D7A46D /* popup.js in Resources */,
-				BE8E24622B1D4FBC00D7A46D /* test-framework.html in Resources */,
-				BE8E24592B1D4FBC00D7A46D /* inspector.js in Resources */,
-				BE8E24822B1D4FBC00D7A46D /* setup-links.js in Resources */,
-				BE8E24562B1D4FBC00D7A46D /* react-dom.min.js in Resources */,
-				BE8E24572B1D4FBC00D7A46D /* background.js in Resources */,
-				BE8E24542B1D4FBC00D7A46D /* links.js in Resources */,
-				BE8E246D2B1D4FBC00D7A46D /* limits.html in Resources */,
-				BE8E247A2B1D4FBC00D7A46D /* inspect.js in Resources */,
-				BE8E246F2B1D4FBC00D7A46D /* manifest.json in Resources */,
-				BE8E24742B1D4FBC00D7A46D /* csv-parse.js in Resources */,
-				BE8E244D2B1D4FBC00D7A46D /* slds-spinner.css in Resources */,
-				BE8E24662B1D4FBC00D7A46D /* limits.js in Resources */,
-				BE8E24792B1D4FBC00D7A46D /* csv-parse-test.js in Resources */,
-				BE8E24582B1D4FBC00D7A46D /* inspect.html in Resources */,
-				BE8E24762B1D4FBC00D7A46D /* button.js in Resources */,
-				BE8E246B2B1D4FBC00D7A46D /* react.min.js in Resources */,
-				BE8E245D2B1D4FBC00D7A46D /* popup.html in Resources */,
-				BE8E24502B1D4FBC00D7A46D /* metadata-retrieve.js in Resources */,
-				BE8E24632B1D4FBC00D7A46D /* explore-api.html in Resources */,
-				BE8E24642B1D4FBC00D7A46D /* inspect-inline.css in Resources */,
-				BE8E24612B1D4FBC00D7A46D /* data-import.css in Resources */,
-				BE8E24522B1D4FBC00D7A46D /* data-import-test.js in Resources */,
-				BE8E245A2B1D4FBC00D7A46D /* data-export.css in Resources */,
-				BE8E24602B1D4FBC00D7A46D /* test-framework.js in Resources */,
+				BEEE5C922B27C38F0040C132 /* metadata-retrieve.css in Resources */,
+				BEEE5C8D2B27C38F0040C132 /* images in Resources */,
+				BEEE5CA22B27C38F0040C132 /* react.js in Resources */,
+				BEEE5C952B27C38F0040C132 /* sources.txt in Resources */,
+				BEEE5CC62B27C39C0040C132 /* data-export.js in Resources */,
+				BEEE5C8F2B27C38F0040C132 /* react.min.js in Resources */,
+				BEEE5C942B27C38F0040C132 /* react-dom.min.js in Resources */,
+				BEEE5C8A2B27C38F0040C132 /* inspect.css in Resources */,
+				BEEE5C912B27C38F0040C132 /* icon128.png in Resources */,
+				BEEE5CC82B27C39C0040C132 /* explore-api.css in Resources */,
+				BEEE5CC12B27C39C0040C132 /* setup-links.js in Resources */,
+				BEEE5CCC2B27C39C0040C132 /* data-load.css in Resources */,
+				BEEE5CBB2B27C39C0040C132 /* popup.css in Resources */,
+				BEEE5C872B27C38F0040C132 /* data-export-test.js in Resources */,
+				BEEE5C8C2B27C38F0040C132 /* background.js in Resources */,
+				BEEE5C8B2B27C38F0040C132 /* metadata-retrieve.js in Resources */,
+				BEEE5CA12B27C38F0040C132 /* data-import.js in Resources */,
+				BEEE5CBE2B27C39C0040C132 /* data-import.html in Resources */,
+				BEEE5CC52B27C39C0040C132 /* explore-api.js in Resources */,
+				BEEE5C9C2B27C38F0040C132 /* styles in Resources */,
+				BEEE5CA02B27C38F0040C132 /* popup.js in Resources */,
+				BEEE5CBD2B27C39C0040C132 /* limits.css in Resources */,
+				BEEE5CCA2B27C39C0040C132 /* data-load.js in Resources */,
+				BEEE5CA32B27C38F0040C132 /* test-page.js in Resources */,
+				BEEE5CC42B27C39C0040C132 /* manifest-template.json in Resources */,
+				BEEE5C9E2B27C38F0040C132 /* data-import-test.js in Resources */,
+				BEEE5C902B27C38F0040C132 /* limits.html in Resources */,
+				BEEE5CC32B27C39C0040C132 /* csv-parse-test.js in Resources */,
+				BEEE5CA52B27C38F0040C132 /* inspect-inline.css in Resources */,
+				BEEE5CC02B27C39C0040C132 /* data-export.html in Resources */,
+				BEEE5C962B27C38F0040C132 /* inspect-inline.js in Resources */,
+				BEEE5CBA2B27C39C0040C132 /* fonts in Resources */,
+				BEEE5C4D2B27C27B0040C132 /* manifest.json in Resources */,
+				BEEE5C8E2B27C38F0040C132 /* explore-api.html in Resources */,
+				BEEE5C982B27C38F0040C132 /* flags.css in Resources */,
+				BEEE5CBF2B27C39C0040C132 /* inspect.js in Resources */,
+				BEEE5CBC2B27C39C0040C132 /* csv-parse.js in Resources */,
+				BEEE5CC72B27C39C0040C132 /* metadata-retrieve.html in Resources */,
+				BEEE5C9B2B27C38F0040C132 /* inspect.html in Resources */,
+				BEEE5C862B27C38F0040C132 /* links.js in Resources */,
+				BEEE5CA62B27C38F0040C132 /* react-dom.js in Resources */,
+				BEEE5CA42B27C38F0040C132 /* symbols.svg in Resources */,
+				BEEE5CCB2B27C39C0040C132 /* button.js in Resources */,
+				BEEE5C9D2B27C38F0040C132 /* popup-test.js in Resources */,
+				BEEE5C882B27C38F0040C132 /* limits.js in Resources */,
+				BEEE5CC22B27C39C0040C132 /* test-page.html in Resources */,
+				BEEE5C992B27C38F0040C132 /* test-framework.html in Resources */,
+				BEEE5C852B27C38F0040C132 /* inspector.js in Resources */,
+				BEEE5C932B27C38F0040C132 /* data-import.css in Resources */,
+				BEEE5C972B27C38F0040C132 /* popup.html in Resources */,
+				BEEE5C492B27C27B0040C132 /* _locales in Resources */,
+				BEEE5C892B27C38F0040C132 /* test-framework.js in Resources */,
+				BEEE5CC92B27C39C0040C132 /* button.css in Resources */,
+				BEEE5C9A2B27C38F0040C132 /* data-export.css in Resources */,
+				BEEE5C9F2B27C38F0040C132 /* slds-spinner.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BE8E23E32B1D4FBA00D7A46D /* Sources */ = {
+		BEEE5C202B27C2790040C132 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE8E23F72B1D4FBA00D7A46D /* ViewController.swift in Sources */,
-				BE8E23EB2B1D4FBA00D7A46D /* AppDelegate.swift in Sources */,
+				BEEE5C342B27C2790040C132 /* ViewController.swift in Sources */,
+				BEEE5C282B27C2790040C132 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE8E24002B1D4FBC00D7A46D /* Sources */ = {
+		BEEE5C3C2B27C27B0040C132 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE8E240A2B1D4FBC00D7A46D /* SafariWebExtensionHandler.swift in Sources */,
+				BEEE5C462B27C27B0040C132 /* SafariWebExtensionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BE8E24072B1D4FBC00D7A46D /* PBXTargetDependency */ = {
+		BEEE5C432B27C27B0040C132 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BE8E24032B1D4FBC00D7A46D /* Safari Salesforce Inspector Reloaded Extension */;
-			targetProxy = BE8E24062B1D4FBC00D7A46D /* PBXContainerItemProxy */;
+			target = BEEE5C3F2B27C27B0040C132 /* Safari Salesforce Inspector Reloaded Extension */;
+			targetProxy = BEEE5C422B27C27B0040C132 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BE8E23ED2B1D4FBA00D7A46D /* Main.html */ = {
+		BEEE5C2A2B27C2790040C132 /* Main.html */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BE8E23EE2B1D4FBA00D7A46D /* Base */,
+				BEEE5C2B2B27C2790040C132 /* Base */,
 			);
 			name = Main.html;
 			sourceTree = "<group>";
 		};
-		BE8E23F82B1D4FBA00D7A46D /* Main.storyboard */ = {
+		BEEE5C352B27C2790040C132 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BE8E23F92B1D4FBA00D7A46D /* Base */,
+				BEEE5C362B27C2790040C132 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -506,7 +507,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		BE8E240D2B1D4FBC00D7A46D /* Debug */ = {
+		BEEE5C5A2B27C27B0040C132 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -569,7 +570,7 @@
 			};
 			name = Debug;
 		};
-		BE8E240E2B1D4FBC00D7A46D /* Release */ = {
+		BEEE5C5B2B27C27B0040C132 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -624,12 +625,13 @@
 			};
 			name = Release;
 		};
-		BE8E24102B1D4FBC00D7A46D /* Debug */ = {
+		BEEE5C5D2B27C27B0040C132 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Safari Salesforce Inspector Reloaded Extension/Safari_Salesforce_Inspector_Reloaded_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UAF5HBHXWW;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Safari Salesforce Inspector Reloaded Extension/Info.plist";
@@ -654,12 +656,13 @@
 			};
 			name = Debug;
 		};
-		BE8E24112B1D4FBC00D7A46D /* Release */ = {
+		BEEE5C5E2B27C27B0040C132 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Safari Salesforce Inspector Reloaded Extension/Safari_Salesforce_Inspector_Reloaded_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UAF5HBHXWW;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Safari Salesforce Inspector Reloaded Extension/Info.plist";
@@ -684,7 +687,7 @@
 			};
 			name = Release;
 		};
-		BE8E24142B1D4FBC00D7A46D /* Debug */ = {
+		BEEE5C612B27C27B0040C132 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -694,9 +697,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UAF5HBHXWW;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Safari Salesforce Inspector Reloaded/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Safari Salesforce Inspector Reloaded";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
@@ -720,7 +723,7 @@
 			};
 			name = Debug;
 		};
-		BE8E24152B1D4FBC00D7A46D /* Release */ = {
+		BEEE5C622B27C27B0040C132 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -730,9 +733,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UAF5HBHXWW;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Safari Salesforce Inspector Reloaded/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Safari Salesforce Inspector Reloaded";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
@@ -759,34 +762,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BE8E23E22B1D4FBA00D7A46D /* Build configuration list for PBXProject "Safari Salesforce Inspector Reloaded" */ = {
+		BEEE5C1F2B27C2790040C132 /* Build configuration list for PBXProject "Safari Salesforce Inspector Reloaded" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE8E240D2B1D4FBC00D7A46D /* Debug */,
-				BE8E240E2B1D4FBC00D7A46D /* Release */,
+				BEEE5C5A2B27C27B0040C132 /* Debug */,
+				BEEE5C5B2B27C27B0040C132 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE8E240F2B1D4FBC00D7A46D /* Build configuration list for PBXNativeTarget "Safari Salesforce Inspector Reloaded Extension" */ = {
+		BEEE5C5C2B27C27B0040C132 /* Build configuration list for PBXNativeTarget "Safari Salesforce Inspector Reloaded Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE8E24102B1D4FBC00D7A46D /* Debug */,
-				BE8E24112B1D4FBC00D7A46D /* Release */,
+				BEEE5C5D2B27C27B0040C132 /* Debug */,
+				BEEE5C5E2B27C27B0040C132 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE8E24132B1D4FBC00D7A46D /* Build configuration list for PBXNativeTarget "Safari Salesforce Inspector Reloaded" */ = {
+		BEEE5C602B27C27B0040C132 /* Build configuration list for PBXNativeTarget "Safari Salesforce Inspector Reloaded" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE8E24142B1D4FBC00D7A46D /* Debug */,
-				BE8E24152B1D4FBC00D7A46D /* Release */,
+				BEEE5C612B27C27B0040C132 /* Debug */,
+				BEEE5C622B27C27B0040C132 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BE8E23DF2B1D4FBA00D7A46D /* Project object */;
+	rootObject = BEEE5C1C2B27C2790040C132 /* Project object */;
 }

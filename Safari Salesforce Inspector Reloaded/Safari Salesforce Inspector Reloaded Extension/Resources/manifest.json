@@ -1,0 +1,64 @@
+{
+    "manifest_version": 3,
+    "default_locale": "en",
+
+    "name": "__MSG_extension_name__",
+    "description": "__MSG_extension_description__",
+    "version": "1.20.1",
+    "icons": {
+      "128": "icon128.png"
+    },
+
+    "background": {
+        "service_worker": "background.js"
+    },
+    "host_permissions": [
+      "https://*.salesforce.com/*",
+      "https://*.force.com/*",
+      "https://*.cloudforce.com/*",
+      "https://*.visualforce.com/*",
+      "https://*.salesforce.mil/*",
+      "https://*.force.mil/*",
+      "https://*.cloudforce.mil/*",
+      "https://*.visualforce.mil/*",
+      "https://*.crmforce.mil/*"
+    ],
+    "content_scripts": [
+      {
+        "matches": [
+          "https://*.salesforce.com/*",
+          "https://*.visual.force.com/*",
+          "https://*.vf.force.com/*",
+          "https://*.lightning.force.com/*",
+          "https://*.cloudforce.com/*",
+          "https://*.visualforce.com/*",
+          "https://*.salesforce.mil/*",
+          "https://*.visual.force.mil/*",
+          "https://*.vf.force.mil/*",
+          "https://*.lightning.force.mil/*",
+          "https://*.cloudforce.mil/*",
+          "https://*.visualforce.mil/*",
+          "https://*.crmforce.mil/*"
+        ],
+        "all_frames": true,
+        "css": ["button.css", "inspect-inline.css"],
+        "js": ["button.js", "inspect-inline.js"]
+      }
+    ],
+    "web_accessible_resources": [
+      {
+        "resources": [
+          "popup.html",
+          "data-export.html",
+          "data-import.html",
+          "inspect.html",
+          "metadata-retrieve.html",
+          "explore-api.html",
+          "limits.html"
+        ],
+        "matches": ["https://*/*"]
+      }
+    ],
+
+    "permissions": ["cookies"],
+}

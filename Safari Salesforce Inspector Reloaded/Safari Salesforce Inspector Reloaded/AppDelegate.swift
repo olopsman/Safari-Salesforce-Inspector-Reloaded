@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Safari Salesforce Inspector Reloaded
 //
-//  Created by Paulo Orquillo on 4/12/23.
+//  Created by Paulo Orquillo on 12/12/23.
 //
 
 import Cocoa

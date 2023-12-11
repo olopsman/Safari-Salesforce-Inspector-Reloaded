@@ -2,7 +2,7 @@
 //  SafariWebExtensionHandler.swift
 //  Safari Salesforce Inspector Reloaded Extension
 //
-//  Created by Paulo Orquillo on 4/12/23.
+//  Created by Paulo Orquillo on 12/12/23.
 //
 
 import SafariServices
