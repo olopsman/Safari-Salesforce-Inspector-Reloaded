@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BEAF6FE32B27C61900700029 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = BEAF6FE22B27C61900700029 /* background.js */; };
+		BEAF6FE52B27C63400700029 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = BEAF6FE42B27C63400700029 /* popup.css */; };
+		BEAF6FE72B27C63B00700029 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = BEAF6FE62B27C63B00700029 /* popup.html */; };
+		BEAF6FE92B27C64100700029 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = BEAF6FE82B27C64100700029 /* popup.js */; };
 		BEEE5C282B27C2790040C132 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEE5C272B27C2790040C132 /* AppDelegate.swift */; };
 		BEEE5C2C2B27C2790040C132 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C2A2B27C2790040C132 /* Main.html */; };
 		BEEE5C2E2B27C2790040C132 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C2D2B27C2790040C132 /* Icon.png */; };
@@ -26,7 +30,6 @@
 		BEEE5C892B27C38F0040C132 /* test-framework.js in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C672B27C38E0040C132 /* test-framework.js */; };
 		BEEE5C8A2B27C38F0040C132 /* inspect.css in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C682B27C38E0040C132 /* inspect.css */; };
 		BEEE5C8B2B27C38F0040C132 /* metadata-retrieve.js in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C692B27C38E0040C132 /* metadata-retrieve.js */; };
-		BEEE5C8C2B27C38F0040C132 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C6A2B27C38E0040C132 /* background.js */; };
 		BEEE5C8D2B27C38F0040C132 /* images in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C6B2B27C38E0040C132 /* images */; };
 		BEEE5C8E2B27C38F0040C132 /* explore-api.html in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C6C2B27C38E0040C132 /* explore-api.html */; };
 		BEEE5C8F2B27C38F0040C132 /* react.min.js in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C6D2B27C38E0040C132 /* react.min.js */; };
@@ -37,7 +40,6 @@
 		BEEE5C942B27C38F0040C132 /* react-dom.min.js in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C722B27C38E0040C132 /* react-dom.min.js */; };
 		BEEE5C952B27C38F0040C132 /* sources.txt in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C732B27C38E0040C132 /* sources.txt */; };
 		BEEE5C962B27C38F0040C132 /* inspect-inline.js in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C742B27C38E0040C132 /* inspect-inline.js */; };
-		BEEE5C972B27C38F0040C132 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C752B27C38E0040C132 /* popup.html */; };
 		BEEE5C982B27C38F0040C132 /* flags.css in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C762B27C38E0040C132 /* flags.css */; };
 		BEEE5C992B27C38F0040C132 /* test-framework.html in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C772B27C38E0040C132 /* test-framework.html */; };
 		BEEE5C9A2B27C38F0040C132 /* data-export.css in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C782B27C38E0040C132 /* data-export.css */; };
@@ -46,7 +48,6 @@
 		BEEE5C9D2B27C38F0040C132 /* popup-test.js in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C7B2B27C38E0040C132 /* popup-test.js */; };
 		BEEE5C9E2B27C38F0040C132 /* data-import-test.js in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C7C2B27C38E0040C132 /* data-import-test.js */; };
 		BEEE5C9F2B27C38F0040C132 /* slds-spinner.css in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C7D2B27C38E0040C132 /* slds-spinner.css */; };
-		BEEE5CA02B27C38F0040C132 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C7E2B27C38F0040C132 /* popup.js */; };
 		BEEE5CA12B27C38F0040C132 /* data-import.js in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C7F2B27C38F0040C132 /* data-import.js */; };
 		BEEE5CA22B27C38F0040C132 /* react.js in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C802B27C38F0040C132 /* react.js */; };
 		BEEE5CA32B27C38F0040C132 /* test-page.js in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C812B27C38F0040C132 /* test-page.js */; };
@@ -54,7 +55,6 @@
 		BEEE5CA52B27C38F0040C132 /* inspect-inline.css in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C832B27C38F0040C132 /* inspect-inline.css */; };
 		BEEE5CA62B27C38F0040C132 /* react-dom.js in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5C842B27C38F0040C132 /* react-dom.js */; };
 		BEEE5CBA2B27C39C0040C132 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5CA72B27C39C0040C132 /* fonts */; };
-		BEEE5CBB2B27C39C0040C132 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5CA82B27C39C0040C132 /* popup.css */; };
 		BEEE5CBC2B27C39C0040C132 /* csv-parse.js in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5CA92B27C39C0040C132 /* csv-parse.js */; };
 		BEEE5CBD2B27C39C0040C132 /* limits.css in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5CAA2B27C39C0040C132 /* limits.css */; };
 		BEEE5CBE2B27C39C0040C132 /* data-import.html in Resources */ = {isa = PBXBuildFile; fileRef = BEEE5CAB2B27C39C0040C132 /* data-import.html */; };
@@ -99,6 +99,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BEAF6FE22B27C61900700029 /* background.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = background.js; path = ../../../addon/background.js; sourceTree = "<group>"; };
+		BEAF6FE42B27C63400700029 /* popup.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = popup.css; path = ../../../addon/popup.css; sourceTree = "<group>"; };
+		BEAF6FE62B27C63B00700029 /* popup.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = popup.html; path = ../../../addon/popup.html; sourceTree = "<group>"; };
+		BEAF6FE82B27C64100700029 /* popup.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = popup.js; path = ../../../addon/popup.js; sourceTree = "<group>"; };
 		BEEE5C242B27C2790040C132 /* Safari Salesforce Inspector Reloaded.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Safari Salesforce Inspector Reloaded.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEEE5C272B27C2790040C132 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEEE5C2B2B27C2790040C132 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
@@ -123,7 +127,6 @@
 		BEEE5C672B27C38E0040C132 /* test-framework.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "test-framework.js"; sourceTree = "<group>"; };
 		BEEE5C682B27C38E0040C132 /* inspect.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = inspect.css; sourceTree = "<group>"; };
 		BEEE5C692B27C38E0040C132 /* metadata-retrieve.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "metadata-retrieve.js"; sourceTree = "<group>"; };
-		BEEE5C6A2B27C38E0040C132 /* background.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = background.js; path = "../../../Safari-Salesforce-Inspector-Reloaded/addon/background.js"; sourceTree = "<group>"; };
 		BEEE5C6B2B27C38E0040C132 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		BEEE5C6C2B27C38E0040C132 /* explore-api.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "explore-api.html"; sourceTree = "<group>"; };
 		BEEE5C6D2B27C38E0040C132 /* react.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = react.min.js; sourceTree = "<group>"; };
@@ -134,7 +137,6 @@
 		BEEE5C722B27C38E0040C132 /* react-dom.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "react-dom.min.js"; sourceTree = "<group>"; };
 		BEEE5C732B27C38E0040C132 /* sources.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sources.txt; sourceTree = "<group>"; };
 		BEEE5C742B27C38E0040C132 /* inspect-inline.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "inspect-inline.js"; sourceTree = "<group>"; };
-		BEEE5C752B27C38E0040C132 /* popup.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = popup.html; path = "../../../Safari-Salesforce-Inspector-Reloaded/addon/popup.html"; sourceTree = "<group>"; };
 		BEEE5C762B27C38E0040C132 /* flags.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = flags.css; sourceTree = "<group>"; };
 		BEEE5C772B27C38E0040C132 /* test-framework.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "test-framework.html"; sourceTree = "<group>"; };
 		BEEE5C782B27C38E0040C132 /* data-export.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "data-export.css"; sourceTree = "<group>"; };
@@ -143,7 +145,6 @@
 		BEEE5C7B2B27C38E0040C132 /* popup-test.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "popup-test.js"; sourceTree = "<group>"; };
 		BEEE5C7C2B27C38E0040C132 /* data-import-test.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "data-import-test.js"; sourceTree = "<group>"; };
 		BEEE5C7D2B27C38E0040C132 /* slds-spinner.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "slds-spinner.css"; sourceTree = "<group>"; };
-		BEEE5C7E2B27C38F0040C132 /* popup.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = popup.js; path = "../../../Safari-Salesforce-Inspector-Reloaded/addon/popup.js"; sourceTree = "<group>"; };
 		BEEE5C7F2B27C38F0040C132 /* data-import.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "data-import.js"; sourceTree = "<group>"; };
 		BEEE5C802B27C38F0040C132 /* react.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = react.js; sourceTree = "<group>"; };
 		BEEE5C812B27C38F0040C132 /* test-page.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "test-page.js"; sourceTree = "<group>"; };
@@ -151,7 +152,6 @@
 		BEEE5C832B27C38F0040C132 /* inspect-inline.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "inspect-inline.css"; sourceTree = "<group>"; };
 		BEEE5C842B27C38F0040C132 /* react-dom.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "react-dom.js"; sourceTree = "<group>"; };
 		BEEE5CA72B27C39C0040C132 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
-		BEEE5CA82B27C39C0040C132 /* popup.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = popup.css; path = "../../../Safari-Salesforce-Inspector-Reloaded/addon/popup.css"; sourceTree = "<group>"; };
 		BEEE5CA92B27C39C0040C132 /* csv-parse.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "csv-parse.js"; sourceTree = "<group>"; };
 		BEEE5CAA2B27C39C0040C132 /* limits.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = limits.css; sourceTree = "<group>"; };
 		BEEE5CAB2B27C39C0040C132 /* data-import.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "data-import.html"; sourceTree = "<group>"; };
@@ -246,61 +246,61 @@
 		BEEE5C472B27C27B0040C132 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				BEEE5C6A2B27C38E0040C132 /* background.js */,
+				BEEE5C482B27C27B0040C132 /* _locales */,
+				BEAF6FE22B27C61900700029 /* background.js */,
+				BEEE5CB62B27C39C0040C132 /* button.css */,
+				BEEE5CB82B27C39C0040C132 /* button.js */,
+				BEEE5CB02B27C39C0040C132 /* csv-parse-test.js */,
+				BEEE5CA92B27C39C0040C132 /* csv-parse.js */,
 				BEEE5C652B27C38E0040C132 /* data-export-test.js */,
 				BEEE5C782B27C38E0040C132 /* data-export.css */,
+				BEEE5CAD2B27C39C0040C132 /* data-export.html */,
+				BEEE5CB32B27C39C0040C132 /* data-export.js */,
 				BEEE5C7C2B27C38E0040C132 /* data-import-test.js */,
 				BEEE5C712B27C38E0040C132 /* data-import.css */,
+				BEEE5CAB2B27C39C0040C132 /* data-import.html */,
 				BEEE5C7F2B27C38F0040C132 /* data-import.js */,
+				BEEE5CB92B27C39C0040C132 /* data-load.css */,
+				BEEE5CB72B27C39C0040C132 /* data-load.js */,
+				BEEE5CB52B27C39C0040C132 /* explore-api.css */,
 				BEEE5C6C2B27C38E0040C132 /* explore-api.html */,
+				BEEE5CB22B27C39C0040C132 /* explore-api.js */,
 				BEEE5C762B27C38E0040C132 /* flags.css */,
+				BEEE5CA72B27C39C0040C132 /* fonts */,
 				BEEE5C6F2B27C38E0040C132 /* icon128.png */,
 				BEEE5C6B2B27C38E0040C132 /* images */,
 				BEEE5C832B27C38F0040C132 /* inspect-inline.css */,
 				BEEE5C742B27C38E0040C132 /* inspect-inline.js */,
 				BEEE5C682B27C38E0040C132 /* inspect.css */,
 				BEEE5C792B27C38E0040C132 /* inspect.html */,
+				BEEE5CAC2B27C39C0040C132 /* inspect.js */,
 				BEEE5C632B27C38E0040C132 /* inspector.js */,
+				BEEE5CAA2B27C39C0040C132 /* limits.css */,
 				BEEE5C6E2B27C38E0040C132 /* limits.html */,
 				BEEE5C662B27C38E0040C132 /* limits.js */,
 				BEEE5C642B27C38E0040C132 /* links.js */,
+				BEEE5CB12B27C39C0040C132 /* manifest-template.json */,
+				BEEE5C4C2B27C27B0040C132 /* manifest.json */,
 				BEEE5C702B27C38E0040C132 /* metadata-retrieve.css */,
+				BEEE5CB42B27C39C0040C132 /* metadata-retrieve.html */,
 				BEEE5C692B27C38E0040C132 /* metadata-retrieve.js */,
 				BEEE5C7B2B27C38E0040C132 /* popup-test.js */,
-				BEEE5C752B27C38E0040C132 /* popup.html */,
-				BEEE5C7E2B27C38F0040C132 /* popup.js */,
+				BEAF6FE42B27C63400700029 /* popup.css */,
+				BEAF6FE62B27C63B00700029 /* popup.html */,
+				BEAF6FE82B27C64100700029 /* popup.js */,
 				BEEE5C842B27C38F0040C132 /* react-dom.js */,
 				BEEE5C722B27C38E0040C132 /* react-dom.min.js */,
 				BEEE5C802B27C38F0040C132 /* react.js */,
 				BEEE5C6D2B27C38E0040C132 /* react.min.js */,
-				BEEE5CB62B27C39C0040C132 /* button.css */,
-				BEEE5CB82B27C39C0040C132 /* button.js */,
-				BEEE5CB02B27C39C0040C132 /* csv-parse-test.js */,
-				BEEE5CA92B27C39C0040C132 /* csv-parse.js */,
-				BEEE5CAD2B27C39C0040C132 /* data-export.html */,
-				BEEE5CB32B27C39C0040C132 /* data-export.js */,
-				BEEE5CAB2B27C39C0040C132 /* data-import.html */,
-				BEEE5CB92B27C39C0040C132 /* data-load.css */,
-				BEEE5CB72B27C39C0040C132 /* data-load.js */,
-				BEEE5CB52B27C39C0040C132 /* explore-api.css */,
-				BEEE5CB22B27C39C0040C132 /* explore-api.js */,
-				BEEE5CA72B27C39C0040C132 /* fonts */,
-				BEEE5CAC2B27C39C0040C132 /* inspect.js */,
-				BEEE5CAA2B27C39C0040C132 /* limits.css */,
-				BEEE5CB12B27C39C0040C132 /* manifest-template.json */,
-				BEEE5CB42B27C39C0040C132 /* metadata-retrieve.html */,
-				BEEE5CA82B27C39C0040C132 /* popup.css */,
 				BEEE5CAE2B27C39C0040C132 /* setup-links.js */,
-				BEEE5CAF2B27C39C0040C132 /* test-page.html */,
 				BEEE5C7D2B27C38E0040C132 /* slds-spinner.css */,
 				BEEE5C732B27C38E0040C132 /* sources.txt */,
 				BEEE5C7A2B27C38E0040C132 /* styles */,
 				BEEE5C822B27C38F0040C132 /* symbols.svg */,
 				BEEE5C772B27C38E0040C132 /* test-framework.html */,
 				BEEE5C672B27C38E0040C132 /* test-framework.js */,
+				BEEE5CAF2B27C39C0040C132 /* test-page.html */,
 				BEEE5C812B27C38F0040C132 /* test-page.js */,
-				BEEE5C482B27C27B0040C132 /* _locales */,
-				BEEE5C4C2B27C27B0040C132 /* manifest.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -411,15 +411,13 @@
 				BEEE5CC82B27C39C0040C132 /* explore-api.css in Resources */,
 				BEEE5CC12B27C39C0040C132 /* setup-links.js in Resources */,
 				BEEE5CCC2B27C39C0040C132 /* data-load.css in Resources */,
-				BEEE5CBB2B27C39C0040C132 /* popup.css in Resources */,
 				BEEE5C872B27C38F0040C132 /* data-export-test.js in Resources */,
-				BEEE5C8C2B27C38F0040C132 /* background.js in Resources */,
 				BEEE5C8B2B27C38F0040C132 /* metadata-retrieve.js in Resources */,
+				BEAF6FE32B27C61900700029 /* background.js in Resources */,
 				BEEE5CA12B27C38F0040C132 /* data-import.js in Resources */,
 				BEEE5CBE2B27C39C0040C132 /* data-import.html in Resources */,
 				BEEE5CC52B27C39C0040C132 /* explore-api.js in Resources */,
 				BEEE5C9C2B27C38F0040C132 /* styles in Resources */,
-				BEEE5CA02B27C38F0040C132 /* popup.js in Resources */,
 				BEEE5CBD2B27C39C0040C132 /* limits.css in Resources */,
 				BEEE5CCA2B27C39C0040C132 /* data-load.js in Resources */,
 				BEEE5CA32B27C38F0040C132 /* test-page.js in Resources */,
@@ -435,6 +433,7 @@
 				BEEE5C8E2B27C38F0040C132 /* explore-api.html in Resources */,
 				BEEE5C982B27C38F0040C132 /* flags.css in Resources */,
 				BEEE5CBF2B27C39C0040C132 /* inspect.js in Resources */,
+				BEAF6FE52B27C63400700029 /* popup.css in Resources */,
 				BEEE5CBC2B27C39C0040C132 /* csv-parse.js in Resources */,
 				BEEE5CC72B27C39C0040C132 /* metadata-retrieve.html in Resources */,
 				BEEE5C9B2B27C38F0040C132 /* inspect.html in Resources */,
@@ -443,12 +442,13 @@
 				BEEE5CA42B27C38F0040C132 /* symbols.svg in Resources */,
 				BEEE5CCB2B27C39C0040C132 /* button.js in Resources */,
 				BEEE5C9D2B27C38F0040C132 /* popup-test.js in Resources */,
+				BEAF6FE92B27C64100700029 /* popup.js in Resources */,
 				BEEE5C882B27C38F0040C132 /* limits.js in Resources */,
 				BEEE5CC22B27C39C0040C132 /* test-page.html in Resources */,
 				BEEE5C992B27C38F0040C132 /* test-framework.html in Resources */,
 				BEEE5C852B27C38F0040C132 /* inspector.js in Resources */,
+				BEAF6FE72B27C63B00700029 /* popup.html in Resources */,
 				BEEE5C932B27C38F0040C132 /* data-import.css in Resources */,
-				BEEE5C972B27C38F0040C132 /* popup.html in Resources */,
 				BEEE5C492B27C27B0040C132 /* _locales in Resources */,
 				BEEE5C892B27C38F0040C132 /* test-framework.js in Resources */,
 				BEEE5CC92B27C39C0040C132 /* button.css in Resources */,
